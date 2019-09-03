@@ -84,6 +84,9 @@ main > article {
   background-color: teal;
 }
 
+/* form {
+  font-family: 'Courier New', Courier, monospace; */
+}
 footer {
   background-color: aquamarine;
   overflow: auto;
