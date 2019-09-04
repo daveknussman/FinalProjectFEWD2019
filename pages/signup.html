@@ -11,6 +11,7 @@
       crossorigin="anonymous"
     />
     <title>FEWD 2019 Signup</title>
+    <script type="text/javascript" src="../scripts/script.js"></script>
   </head>
   <body>
     <header>
@@ -38,7 +39,8 @@
             <input type="radio" name="phonetype" value="Mobile" checked> Mobile
             <input type="radio" name="phonetype" value="Home"> Home<br><br>
             Email<br><input type="email" name="emailaddr"><br><br>
-            <input type="submit" value="Submit">
+            <button type="button" onclick="newsignup(firstname.value,lastname.value,phone.value,phonetype.value,emailaddr.value)">Submit</button> 
+            <!-- <input type="submit" value="Submit"> -->
           </form> 
         </div>
         <div class="rightpanel">
@@ -51,6 +53,6 @@
       <i class="fab fa-facebook-square"></i>
       <i class="fab fa-twitter-square"></i>
     </footer>
+    <!-- <script type="text/javascript" src="../scripts/script.js"></script> -->
   </body>
-  <script type="text/javascript" src="../scripts/script.js"></script>
 </html>
