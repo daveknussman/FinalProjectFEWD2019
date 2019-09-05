@@ -15,53 +15,71 @@
   </head>
   <body>
     <header>
-    <a href="../index.html"><img id="headerleftimage" src="../images/home300x300.png"></a>
+      <a href="../index.html"
+        ><img id="headerleftimage" src="../images/home300x300.png"
+      /></a>
       <p id="sitetitle">
         Feeding the homeless in Loudonville, one silver spoon at a time
       </p>
     </header>
     <nav class="nav-container">
-      <a class="nav-link" href="../pages/services.html" alt="Services">Our Services</a>
+      <a class="nav-link" href="../pages/services.html" alt="Services"
+        >Our Services</a
+      >
       <a class="nav-link" href="../pages/signup.html" alt="Sign up">Join Us</a>
-      <a class="nav-link" href="../pages/Events.html" alt="Events">Upcoming Events</a>
+      <a class="nav-link" href="../pages/Events.html" alt="Events"
+        >Upcoming Events</a
+      >
     </nav>
     <main>
-      <h2>Sign up to help!</h2>
+      <div class="mainheader">
+        <h2>The Loudonville Foundation</h2>
+        <img id="headerleftimage" src="../images/loudonville.jpg" />
+      </div>
       <article>
         <div class="leftpanel">
           <p>Enter your contact information below</p>
           <!-- <p>Signup Page</p> -->
           <form>
-            First name<br><input type="text" name="firstname"><br><br>
-            Last name<br><input type="text" name="lastname"><br><br>
-            Phone Number<br><input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+            First name<br /><input type="text" name="firstname" /><br /><br />
+            Last name<br /><input type="text" name="lastname" /><br /><br />
+            Phone Number<br /><input
+              type="tel"
+              name="phone"
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+            />
             Type:
-            <input type="radio" name="phonetype" value="Mobile" checked> Mobile
-            <input type="radio" name="phonetype" value="Home"> Home<br><br>
-            Email<br><input type="email" name="emailaddr"><br><br>
-            <button type="button" onclick="newsignup(firstname.value,lastname.value,phone.value,phonetype.value,emailaddr.value)">Submit</button> 
+            <input type="radio" name="phonetype" value="Mobile" checked />
+            Mobile
+            <input type="radio" name="phonetype" value="Home" />
+            Home<br /><br />
+            Email<br /><input type="email" name="emailaddr" /><br /><br />
+            <button
+              type="button"
+              onclick="newsignup(firstname.value,lastname.value,phone.value,phonetype.value,emailaddr.value)"
+            >
+              Submit
+            </button>
             <!-- <input type="submit" value="Submit"> -->
-          </form> 
+          </form>
         </div>
         <div class="rightpanel">
           <p>HOURS OF OPERATION:</p>
           <ul>
-            <li>Mon-Fri 7am-9pm</li> 
+            <li>Mon-Fri 7am-9pm</li>
             <li>Sat-Sun 7am-6pm</li>
           </ul>
-          
-          
-          
-          <p>Open all Major Holidays</p>
-          <p>Planning your next event come check out our beautiful banquet rooms 
-            and stunning gardens.</p>
 
-          <p> The Loudonville Foundation</p>
+          <p>Open all Major Holidays</p>
+          <p>
+            Planning your next event come check out our beautiful banquet rooms
+            and stunning gardens.
+          </p>
+
+          <p>The Loudonville Foundation</p>
           <p>614 Walden Drive Suite A-1</p>
           <p>Loudonville,New York 16030</p>
-          <p>PHONE: (518)783-6141 </p>
-          
-          
+          <p>PHONE: (518)783-6141</p>
         </div>
       </article>
     </main>

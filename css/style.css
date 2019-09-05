@@ -59,7 +59,7 @@ main {
   display: flex;
   flex-direction: column;
   margin: 3px 0 0 0;
-  background-color: limegreen;
+  background-color: #96d8e0;
 }
 
 /* main img {
@@ -71,6 +71,12 @@ main > article {
   display: flex;
   flex-direction: row;
 }
+
+.mainheader {
+  display:flex;
+  justify-content: space-between;
+
+}
 .leftpanel {
   width: 80vw;
   font-size: 3vh;
@@ -79,14 +85,33 @@ main > article {
   background-color: lightskyblue;
 }
 
+.food {
+  width : 70vw;
+  display:flex;
+  flex-direction : row;
+  justify-content: space-evenly;
+}
+
+.food > img {
+  width : 600px;
+}
+
+#mansionimage {
+  width : 70vw;
+  padding-left: 50px;
+}
+
 .rightpanel {
   width: 20vw;
   background-color: teal;
 }
 
+.rightpanel > p {
+  padding-left: 20px;
+}
 /* form {
   font-family: 'Courier New', Courier, monospace; */
-}
+
 footer {
   background-color: aquamarine;
   overflow: auto;
