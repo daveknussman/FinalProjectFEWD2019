@@ -11,6 +11,7 @@
       crossorigin="anonymous"
     />
     <title>FEWD 2019 Signup</title>
+    <script type="text/javascript" src="../scripts/script.js"></script>
   </head>
   <body>
     <header>
@@ -21,8 +22,8 @@
     </header>
     <nav class="nav-container">
       <a class="nav-link" href="../pages/services.html" alt="Services">Our Services</a>
-      <a class="nav-link" href="../pages/signup.html" alt="Sing up">Join Us</a>
-      <a class="nav-link" href="../pages/norm.html" alt="Norm">Norm Page</a>
+      <a class="nav-link" href="../pages/signup.html" alt="Sign up">Join Us</a>
+      <a class="nav-link" href="../pages/Events.html" alt="Events">Upcoming Events</a>
     </nav>
     <main>
       <h2>Page Header</h2>
@@ -31,13 +32,15 @@
           <p>Signup</p>
           <p>Signup Page</p>
           <form>
-            First name<input type="text" name="firstname"><br><br>
-            Last name<input type="text" name="lastname"><br><br>
-            Phone Number<input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+            First name<br><input type="text" name="firstname"><br><br>
+            Last name<br><input type="text" name="lastname"><br><br>
+            Phone Number<br><input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
             Type:
-            <input type="radio" name="phonetype" value="Cell" checked> Cellular
+            <input type="radio" name="phonetype" value="Mobile" checked> Mobile
             <input type="radio" name="phonetype" value="Home"> Home<br><br>
-            Email<input type="email" name="emailaddr"><br><br>
+            Email<br><input type="email" name="emailaddr"><br><br>
+            <button type="button" onclick="newsignup(firstname.value,lastname.value,phone.value,phonetype.value,emailaddr.value)">Submit</button> 
+            <!-- <input type="submit" value="Submit"> -->
           </form> 
         </div>
         <div class="rightpanel">
@@ -50,6 +53,6 @@
       <i class="fab fa-facebook-square"></i>
       <i class="fab fa-twitter-square"></i>
     </footer>
+    <!-- <script type="text/javascript" src="../scripts/script.js"></script> -->
   </body>
-  <script type="text/javascript" src="../scripts/script.js"></script>
 </html>

@@ -38,7 +38,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   color: black;
   font-size: 0.85em;
-  width: 100px;
+  width: 120px;
   padding: 5px; /* this is how i changed the height of the link - padding is the space around the text which changed the height of the a*/
   transition: background-color 500ms;
 }
@@ -84,6 +84,9 @@ main > article {
   background-color: teal;
 }
 
+/* form {
+  font-family: 'Courier New', Courier, monospace; */
+}
 footer {
   background-color: aquamarine;
   overflow: auto;
