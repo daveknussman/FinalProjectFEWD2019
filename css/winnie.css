@@ -2,7 +2,7 @@ header {
     height: 100px;
     width: 100vw;
     display: flex;
-    background-color: #69306D;
+    background-color: #C3F3C0;
   }
   body {
     background-color: rgb(233, 235, 238);
@@ -11,14 +11,14 @@ header {
   #headerleftimage {
     width: 100px;
     object-fit: cover;
-    border: black;
+    border:black;
     border-style: solid;
     border-width: 1px;
   }
   #sitetitle {
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    font-size: 24px;
-    margin-left: 25px;
+    font-size: 43px;
+    margin-left: 43px;
   }
   
   /* nav {
@@ -27,7 +27,7 @@ header {
     } */
   .nav-container {
     margin: 3px 0 0 0;
-    background-color: gray;
+    background-color: #A379c9;
     display: flex;
     justify-content: flex-end;
   }
@@ -36,8 +36,8 @@ header {
     text-decoration: none;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    color: black;
-    font-size: 0.85em;
+    color: blanchedalmond;
+    font-size: 0.90em;
     width: 100px;
     padding: 5px; /* this is how i changed the height of the link - padding is the space around the text which changed the height of the a*/
     transition: background-color 500ms;
@@ -59,7 +59,7 @@ header {
     display: flex;
     flex-direction: column;
     margin: 3px 0 0 0;
-    background-color: limegreen;
+    background-color: ;
   }
   
   /* main img {
@@ -77,15 +77,16 @@ header {
     font-family: Arial, Helvetica, sans-serif;
     padding: 20px;
     background-color: lightskyblue;
+    text-align: center;
   }
   
   .rightpanel {
     width: 20vw;
-    background-color: teal;
+    background-color:#F3B61F ;
   }
   
   footer {
-    background-color: aquamarine;
+    background-color: #FF8C61;
     overflow: auto;
     text-align: center;
   }
@@ -96,7 +97,7 @@ header {
   }
   
   footer i:hover {
-    color: purple;
+    color: #F3B61F;
   }
   
   @media only screen and (max-width: 1000px) {
