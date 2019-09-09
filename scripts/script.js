@@ -16,4 +16,9 @@ function newsignup(first,last,phone,phonetype,email) {
     em = email;
     ar1 = [fn,ln,ph,pt,em];
     ar2.push(ar1);
+    document.getElementById('signupform').reset();
+}
+
+function listmembers () {
+    ar2.forEach(item => alert(item[0] + ' ' + item[1]));
 }
