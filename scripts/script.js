@@ -19,6 +19,10 @@ function newsignup(first,last,phone,phonetype,email) {
     document.getElementById('signupform').reset();
 }
 
-function listmembers () {
+function listmembers() {
     ar2.forEach(item => alert(item[0] + ' ' + item[1]));
+}
+
+function launchit(launchwhat) {
+    alert(launchwhat);
 }
