@@ -101,6 +101,10 @@ main > article {
   padding-left: 50px;
 }
 
+#signupimage {
+  width :200px;
+}
+
 .rightpanel {
   width: 20vw;
   background-color: teal;
