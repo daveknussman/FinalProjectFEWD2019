@@ -17,7 +17,8 @@ body {
 }
 #sitetitle {
   /* font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; */
-  font-family: "Monotype Corsiva", "Arial Narrow", Arial, sans-serif;
+  font-family: "Monotype Corsiva", "Avant Garde", Arial, sans-serif;
+  /* font-family: Veranda, Arial, sans-serif;  */
   font-size: 36px;
   margin-left: 25px;
 }
@@ -105,8 +106,13 @@ main > article {
 }
 
 .desserts > img {
-  width : 300px;
+  height : 200px;
 }
+
+.breakfast {
+  height : 170px;
+}
+
 #mansionimage {
   width : 70vw;
   padding-left: 50px;
