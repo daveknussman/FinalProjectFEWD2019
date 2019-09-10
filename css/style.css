@@ -16,8 +16,9 @@ body {
   border-width: 1px;
 }
 #sitetitle {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 24px;
+  /* font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; */
+  font-family: "Monotype Corsiva", "Arial Narrow", Arial, sans-serif;
+  font-size: 36px;
   margin-left: 25px;
 }
 
@@ -99,6 +100,10 @@ main > article {
 #mansionimage {
   width : 70vw;
   padding-left: 50px;
+}
+
+#signupimage {
+  width :200px;
 }
 
 .rightpanel {
