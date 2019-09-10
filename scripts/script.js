@@ -20,7 +20,17 @@ function newsignup(first,last,phone,phonetype,email) {
 }
 
 function listmembers() {
-    ar2.forEach(item => alert(item[0] + ' ' + item[1]));
+    // ar2.forEach(item => alert(item[0] + ' ' + item[1]));
+
+    var i;
+    var alerttext;
+
+    alerttext = ' ';
+    for (i = 0; i < ar2.length; i++) {
+        alerttext += ar2[i][0] + ' ' + ar2[i][1] + ' ' + ar2[i][2] + ' ' + ar2[i][3] + ' ' + ar2[i][4] + '\n ';
+    } 
+    alert(alerttext);
+
 }
 
 function launchit(launchwhat) {
