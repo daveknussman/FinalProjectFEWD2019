@@ -38,9 +38,10 @@
       </div>
       <article>
         <div class="leftpanel">
+          <img id="signupimage" src="../images/signup1.png"/>
           <p>Enter your contact information below</p>
           <!-- <p>Signup Page</p> -->
-          <form>
+          <form id="signupform">
             First name<br /><input type="text" name="firstname" /><br /><br />
             Last name<br /><input type="text" name="lastname" /><br /><br />
             Phone Number<br /><input
@@ -60,6 +61,8 @@
             >
               Submit
             </button>
+            <br><br><br>
+            <img src="../images/signup2.jpg"/ onclick="listmembers()">
             <!-- <input type="submit" value="Submit"> -->
           </form>
         </div>
@@ -84,9 +87,12 @@
       </article>
     </main>
     <footer>
-      <i class="fab fa-instagram"></i>
-      <i class="fab fa-facebook-square"></i>
-      <i class="fab fa-twitter-square"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-twitter-square"></i>
+      <!-- <i class="fab fa-instagram" onclick="launchit("instagram")></i>
+      <i class="fab fa-facebook-square" onclick="launchit("facebook")></i>
+      <i class="fab fa-twitter-square" onclick="launchit("twitter")></i> -->
     </footer>
     <!-- <script type="text/javascript" src="../scripts/script.js"></script> -->
   </body>
