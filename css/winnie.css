@@ -80,11 +80,11 @@ header {
     text-align: center;
   }
   
-  .rightpanel {
+  .rightpanel {   
     width: 20vw;
-    background-color:#F3B61F ;
+    background-color:#F3B61F;
   }
-  
+
   footer {
     background-color: #FF8C61;
     overflow: auto;
