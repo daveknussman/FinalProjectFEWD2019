@@ -130,6 +130,11 @@ main > article {
 .rightpanel > p {
   padding-left: 20px;
 }
+
+.rightpanel > ul {
+  list-style-type:none;
+}
+
 /* form {
   font-family: 'Courier New', Courier, monospace; */
 
